@@ -1,5 +1,14 @@
 @media screen and (min-width: 750px) {
 
+    @-webkit-keyframes glow {
+        from {
+            text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #b8860b, 0 0 20px #b8860b, 0 0 25px #b8860b, 0 0 30px #b8860b, 0 0 35px #b8860b;
+        }
+        to {
+            text-shadow: 0 0 10px #fff, 0 0 15px #c9a000, 0 0 20px #c9a000, 0 0 25px #c9a000, 0 0 30px #c9a000, 0 0 35px #c9a000, 0 0 40px #c9a000;
+        }
+    }
+
     #welcome-box {
         padding: 15px;
         font-size: 1.5em;

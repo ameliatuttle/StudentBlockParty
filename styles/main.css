@@ -1,0 +1,89 @@
+/* START style for every page */
+@import url('https://fonts.googleapis.com/css2?family=Chicle&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chicle&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: #001a28;
+    background-color: #fff5e8; 
+}
+
+#header-box {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    font-size: 2em;
+    font-family: 'Chicle', 'Poppins', sans-serif;
+    color: #9b690a;
+}
+
+.stripe-background {
+    background: repeating-linear-gradient(
+        45deg,
+        #9c2227 0px 50px,
+        #001a28 50px 60px, 
+        #e8cb79 60px 110px,
+        #001a28 110px 120px,
+        #014757 120px 170px,
+        #001a28 170px 180px,
+        #e19999 180px 230px,
+        #001a28 230px 240px
+        );
+    border-radius: 30px;
+    padding: 10px;
+}
+
+#welcome-box {
+    border-radius: 30px;
+    background-color: #fff5e8;
+    margin: 25px;
+}
+
+.glow {
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+  
+@-webkit-keyframes glow {
+    from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #b8860b, 0 0 40px #b8860b, 0 0 50px #b8860b, 0 0 60px #b8860b, 0 0 70px #b8860b;
+    }
+    to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #c9a000, 0 0 40px #c9a000, 0 0 50px #c9a000, 0 0 60px #c9a000, 0 0 70px #c9a000, 0 0 80px #c9a000;
+    }
+}
+
+
+
+iframe {
+    width: 90%;
+}
+
+.middle-sections {
+    border-radius: 30px;
+    padding: 10px;
+    margin: 7%;
+
+}
+
+#basic-info {
+    background-color: #e1999966;
+}
+
+#did-you-know {
+    background-color: #01475752;
+}
+
+#google-map {
+    background-color: #e8ca7992;
+}
+
+#learn {
+    background-color: #9c222696;
+}
+/* END style for every page */

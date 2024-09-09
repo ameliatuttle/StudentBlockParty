@@ -1,0 +1,41 @@
+@media screen and (min-width: 750px) {
+
+    #welcome-box {
+        padding: 15px;
+        font-size: 1.5em;
+    }
+    
+    #header-box h2 {
+        font-size: 2em;
+    }
+
+    #info-blocks {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #basic-info {
+        grid-column: 1/2;
+    }
+
+    #did-you-know {
+        grid-column: 2/3;
+    }
+
+    #google-map {
+        grid-column: 1/3;
+    }
+
+    #learn {
+        grid-column: 1/3;
+    }
+
+    .middle-sections {
+        margin-top: 25px;
+    }
+
+    #footer {
+        display: flex;
+        justify-content: space-around;
+    }
+}
